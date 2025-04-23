@@ -1,0 +1,192 @@
+* {
+	margin:0;
+	padding:0;
+}
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background:#7b7fed no-repeat center top;
+	color: #ffffff;
+}
+a {
+	color:#7b7fed;
+	text-decoration:underline;
+}
+a:hover {
+	color:#7b7fed;
+	text-decoration:none;
+}
+#container { 
+	width: 100%; 
+} 
+#header {
+	width:100%; 
+}
+.logoBackground {
+	background:#7b7fed;
+	width:300px;
+}
+.logo {
+	color: white;
+	font-size:60px;
+	padding:10px 0 0 30px;
+}
+.author {
+	padding:0 0 10px 30px;
+	color:#707070;
+}
+.author a {
+	color:#707070;
+}
+.menu {
+	background:url(images/menuBackground.png) repeat-x left top;
+	height:103px;
+	text-align:center;
+	
+}
+.menu ul {
+	margin:0;
+	padding-top:32px;
+}
+.menu li {
+	list-style:none;
+	display:inline;
+	padding:20px 15px 0 15px;
+}
+.menu li a {
+	color:#ffffff;
+	font-size:24px;
+	text-decoration:none;
+}
+.menu li a:hover {
+	color:#7b7fed;
+	font-size:24px;
+	text-decoration:none;
+}
+.menu #active a {
+	color:white;
+	font-size:24px;
+	text-decoration:none;
+}
+.allContent {
+	width:800px;
+	margin:0 auto;
+	padding:130px 0 0 0;
+}
+.leftContent p, .rightContent p {
+	padding:40px;
+}
+.leftContent {
+	float:left;
+	width:400px;
+	background:url(images/leftContent.png) repeat-y left top;
+}
+.rightContent {
+	float: right;
+    width: 364px;
+    background: url(images/rightContent.png) repeat-y left top;
+    margin-left: 30px;
+    margin-top: -130px; /* Move it up */
+    padding-bottom: 150px;
+} 
+#footer {
+	text-align:center;
+	color:#707070;
+	padding:30px 0;
+} 
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.register{
+	cursor: pointer;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: darkgray;
+	background-color:antiquewhite;
+}
+.view{
+	cursor: pointer;
+}
+
+
+/* Admin Login Styles */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+/* Admin Dashboard Styles */
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
+
+.logout-btn {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #d9534f;
+    border-radius: 3px;
+}
+
+.admin-menu {
+    background: #f8f9fa;
+    padding: 10px;
+}
+
+.admin-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.admin-menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+.admin-menu a:hover {
+    background: #ddd;
+}
+
+.admin-content {
+    padding: 20px;
+}

@@ -1,0 +1,214 @@
+* {
+	margin:0;
+	padding:0;
+}
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background:#7b7fed url(images/pageBackground.jpg) no-repeat center top;
+	color: #ffffff;
+}
+a {
+	color:#ff9c00;
+	text-decoration:underline;
+}
+a:hover {
+	color:#ff9c00;
+	text-decoration:none;
+}
+#container { 
+	width: 100%; 
+} 
+#header {
+	width:100%; 
+}
+.logoBackground {
+	background:#7b7fed;
+	width:300px;
+}
+.logo {
+	color:#ff9c00;
+	font-size:60px;
+	padding:10px 0 0 30px;
+}
+.author {
+	padding:0 0 10px 30px;
+	color:#707070;
+}
+.author a {
+	color:#707070;
+}
+.menu {
+	background:url(images/menuBackground.png) repeat-x left top;
+	height:90px;
+	text-align:center;
+	margin-top:265px;
+}
+.menu ul {
+	margin:0;
+	padding-top:32px;
+}
+.menu li {
+	list-style:none;
+	display:inline;
+	padding:20px 15px 0 15px;
+}
+.menu li a {
+	color:#ffffff;
+	font-size:24px;
+	text-decoration:none;
+}
+.menu li a:hover {
+	color:#ff9c00;
+	font-size:24px;
+	text-decoration:none;
+}
+.menu #active a {
+	color:#ff9c00;
+	font-size:24px;
+	text-decoration:none;
+}
+.allContent {
+	width:800px;
+	margin:0 auto;
+	padding:130px 0 0 0;
+}
+.leftContent p, .rightContent p {
+	padding:40px;
+}
+.leftContent {
+	float:left;
+	width:400px;
+	background:url(images/leftContent.png) repeat-y left top;
+}
+.rightContent {
+	margin-left:436px;
+	width:364px;
+	background:url(images/rightContent.png) repeat-y left top;
+} 
+.rightContent ul {
+	margin:0;
+	padding:0 40px;
+}
+.rightContent li {
+	list-style:none;
+	padding:0 0 20px 0;
+}
+#footer {
+	text-align:center;
+	color:#707070;
+	padding:30px 0;
+} 
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+#Sign_in{
+ align-items: center;
+}
+.Container{
+	margin-left: 20px;
+	background-color: #707070;
+
+}
+
+
+/* User Section Styling */
+.user-section {
+    float: right;
+    margin-top: 10px;
+	padding: .8rem;
+	border: .1rem solid black;
+    border-radius: .5rem;
+	background-color: white;
+    margin-right: 20px;
+
+}
+
+.user-section p {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    font-size: 16px;
+}
+
+.login-btn, .signup-btn, .logout-btn {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-btn:hover, .signup-btn:hover, .logout-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Main Content Styling */
+#main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+#main-content h1 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#main-content p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+ /* Admin Sidebar Styles */
+ .admin-sidebar {
+	position: fixed;
+	left: 0;
+	top: 120px; /* Below marquee */
+	bottom: 0;
+	width: 300px;
+	background: #f8f9fa;
+	padding: 20px;
+	overflow-y: auto;
+	box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+	z-index: 999;
+}
+
+.main-content {
+	margin-left: 320px;
+	padding: 20px;
+}
+
+/* Admin Form Styles */
+.admin-form input, .admin-form select {
+	width: 100%;
+	padding: 8px;
+	margin: 5px 0 15px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.admin-form button {
+	background: #7b7fed;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.admin-section {
+	margin-bottom: 30px;
+	padding: 15px;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+     
